@@ -1,5 +1,5 @@
 # Python
-__pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 *.so
@@ -9,12 +9,12 @@ __pycache__/
 env/
 .env
 inventory.db
-app/__pycache__/
-app/models/__pycache__/
-app/routes/__pycache__/
-app/schemas/__pycache__/
-app/services/__pycache__/
-app/config/__pycache__/
+app/__pycache__
+app/models/__pycache__
+app/routes/__pycache__
+app/schemas/__pycache__
+app/services/__pycache__
+app/config/__pycache__
 
 # IDE specific files
 .idea/
