@@ -1,7 +1,51 @@
-env
-app/__pycache__
-app/models/__pycache__
-app/routes/__pycache__
-app/schemas/__pycache__
-app/services/__pycache__
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Project specific
+env/
+.env
+inventory.db
+app/__pycache__/
+app/models/__pycache__/
+app/routes/__pycache__/
+app/schemas/__pycache__/
+app/services/__pycache__/
+app/config/__pycache__/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Local development settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
